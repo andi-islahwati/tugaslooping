@@ -1,0 +1,13 @@
+print("Program Pyhon Mencari Bilangan Ganjil Deengan for")
+print("Created by Aindisnure")
+print("Program Start>>>>>>>>>>>>>>>>>>>>>>>/n")
+a=0
+b=0
+a=int("Cari bilangan ganjil mulai dari angka \t=")
+b=int("Banyak bilangan ganjil yang ditampilkan \t=")
+if(a%2==0):
+a=a+1
+for n in range(a,b+1):
+print(a," ")
+a=a+2
+print("Program END>>>>>>>>>>>>>>>>>>>>>>>/n")
